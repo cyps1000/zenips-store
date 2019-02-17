@@ -1,0 +1,39 @@
+{
+  "name": "zenips-store",
+  "version": "0.0.1",
+  "description": "Zenips Store Backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EricPuskas/zenips-store.git"
+  },
+  "author": "Eric Puskas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/EricPuskas/zenips-store/issues"
+  },
+  "homepage": "https://github.com/EricPuskas/zenips-store#readme",
+  "dependencies": {
+    "async": "^2.6.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cloudinary": "^1.13.2",
+    "compression": "^1.7.3",
+    "cors": "^2.8.5",
+    "dotenv": "^6.2.0",
+    "express": "^4.16.4",
+    "helmet": "^3.15.1",
+    "jsonwebtoken": "^8.4.0",
+    "mongoose": "^5.4.13",
+    "nodemailer": "^5.1.1",
+    "passport": "^0.4.0",
+    "passport-jwt": "^4.0.0",
+    "prerender-node": "^3.2.1",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4",
+    "validator": "^10.11.0"
+  }
+}
